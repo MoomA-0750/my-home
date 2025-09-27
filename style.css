@@ -41,6 +41,8 @@ body {
     background-position: 62.604% 64.722%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100dvw;
+    height: 100dvh;
 }
 
 .topbar {
