@@ -261,6 +261,62 @@ body {
 		font-size: 16px;
 		margin-left: 5px;
 	}
+	
+	.menuBar {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		height: 40px;
+		margin-bottom: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-sizing: border-box;
+		gap: 10px;
+		/* z-index: 1; */
+	}
+	
+	.menuBar > .block {
+		height: 49px;
+		border-radius: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		border-style: solid;
+	    border-width: 1px;
+	    border-color: rgba(255, 255, 255, 0.15);
+		
+		/* e-Box */
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+		-webkit-backdrop-filter: blur(12.5px);
+		backdrop-filter: blur(12.5px);
+		
+		/* bC-BGSub */
+		/* background-color: rgba(255, 255, 255, 0.3); */
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+	
+	.menuBar > .block > a {
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 12.5px;
+		gap: 10px;
+	}
+	
+	.menuBar > .block > a > img {
+		width: 24px;
+		aspect-ratio: 1/1;
+	}
+	
+	.menuBar > .block > a > p {
+		font-size: 20px;
+		font-weight: 700;
+		color: #fff;
+		margin-right: 10px;
+	}
 }
 
 @media (max-width: 340px) {
