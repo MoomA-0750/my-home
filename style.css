@@ -143,6 +143,11 @@ body {
     /* z-index: 1; */
 }
 
+.menuBar * {
+    /* transition: height 0.3s cubic-bezier(0, .48, .18, 1.36), margin-left 0.3s cubic-bezier(0, .48, .18, 1.36); */
+    transition: 0.3s cubic-bezier(0, .48, .18, 1.36);
+}
+
 .menuBar > .block {
     height: 49px;
     border-radius: 35px;
@@ -179,8 +184,8 @@ body {
 }
 
 .menuBar > .block > a > p {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
     color: #fff;
     margin-right: 10px;
 }
@@ -313,10 +318,10 @@ body {
     }
     
     .menuBar > .block > a > p {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
         color: #fff;
-        margin-right: 0;
+        margin: 0;
     }
 }
 
