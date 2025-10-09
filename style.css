@@ -74,16 +74,28 @@ body {
     gap: 20px;
 }
 
-.topBar > .logo>img {
+.topBar > .logo > img {
     height: 20px;
 }
 
-.topBar > .logo>h1 {
-    font-family: "Krona One", sans-serif;
+.topBar > .logo > h1 {
+    font-family: "Lexend Giga", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.topBar > .logo > p {
+    font-family: "Lexend", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
     margin: 0;
+}
+
+.topBar > .logo > .border {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .topBar > .links > a > img {
