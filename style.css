@@ -1,33 +1,5 @@
-@font-face {
-    font-family: "LINESeedJP";
-    src: url("Assets/Fonts/LINESeedJP_OTF-Thin.otf") format("opentype");
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "LINESeedJP";
-    src: url("Assets/Fonts/LINESeedJP_OTF-Regular.otf") format("opentype");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "LINESeedJP";
-    src: url("Assets/Fonts/LINESeedJP_OTF-Bold.otf") format("opentype");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "LINESeedJP";
-    src: url("Assets/Fonts/LINESeedJP_OTF-ExtraBold.otf") format("opentype");
-    font-weight: 800;
-    font-style: normal;
-}
-
 * {
-    font-family: "LINESeedJP";
+    font-family: "Lexend", "Murecho";
 }
 
 h1 {
